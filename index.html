@@ -1,42 +1,12 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title>Catalystcolabs.GitHub.io by catalystcolabs</title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="1265.21">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 21.0px; font: 15.0px Courier; color: #222222}
-    span.s1 {color: #009900}
-    span.s2 {color: #000000}
-    span.s3 {color: #000066}
-    span.s4 {color: #66cc66}
-    span.s5 {color: #ff0000}
-    span.Apple-tab-span {white-space:pre}
-    table.t1 {margin: 0.0px -1.0px 24.0px 0.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #e7e7e7 #e7e7e7 #e7e7e7 #e7e7e7; border-collapse: collapse}
-    td.td1 {width: 722.0px; background-color: #eeeeee; border-style: solid; border-width: 1.0px 0.0px 0.0px 0.0px; border-color: #e7e7e7 #110000 #110000 #110000; padding: 6.0px 24.0px 6.0px 24.0px}
-  </style>
-</head>
-<body>
-<table cellspacing="0" cellpadding="0" class="t1">
-  <tbody>
-    <tr>
-      <td valign="top" class="td1">
-        <p class="p1"><span class="Apple-converted-space">    </span>---</p>
-        <p class="p1"><span class="Apple-converted-space">    </span>layout: default</p>
-        <p class="p1"><span class="Apple-converted-space">    </span>title: Home</p>
-        <p class="p1"><span class="Apple-converted-space">    </span>---</p>
-        <p class="p1"> </p>
-        <p class="p1"><span class="Apple-converted-space">    </span><span class="s1">&lt;</span><span class="s2"><b>ul</b></span><span class="s1">&gt;</span></p>
-        <p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">    </span>{% for post in site.posts %}</p>
-        <p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="s1">&lt;</span><span class="s2"><b>li</b></span><span class="s1">&gt;&lt;</span><span class="s2"><b>a</b></span><span class="s1"> </span><span class="s3">href</span><span class="s4">=</span><span class="s5">"{{ post.url }}"</span><span class="s1">&gt;</span>{{ post.title }}<span class="s1">&lt;</span><span class="s4">/</span><span class="s2"><b>a</b></span><span class="s1">&gt;</span><span class="Apple-converted-space"> </span></p>
-        <p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>({{ post.date | date_to_string}})<span class="s1">&lt;</span><span class="s4">/</span><span class="s2"><b>li</b></span><span class="s1">&gt;</span></p>
-        <p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">    </span>{% endfor %}</p>
-        <p class="p1"><span class="Apple-converted-space">    </span><span class="s1">&lt;</span><span class="s4">/</span><span class="s2"><b>ul</b></span><span class="s1">&gt;</span></p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-</body>
-</html>
+
+    ---
+    layout: default
+    title: Home
+    ---
+ 
+    <ul>
+	    {% for post in site.posts %}
+		<li><a href="{{ post.url }}">{{ post.title }}</a> 
+		({{ post.date | date_to_string}})</li>
+	    {% endfor %}
+    </ul>
