@@ -6,3 +6,5 @@ comments: true
 ---
 
 Adding the file to the github folder without completing a jekyll build!
+
+Clicking the blog title is *not* working.
