@@ -3,7 +3,7 @@ layout: post
 title: "The Beginner's Mind"
 date: 2015-01-14 16:26:06 -0700
 comments: false
-author: Erica
+author: "Erica"
 ---
 
 An artist friend of mine, who had been visiting for a week or so, commented on my collection of books that she never saw me reading about art. And indeed, in the small piles that dotted tables and shelves around my house, the proportion of books about art in comparison to the books about social theory, feminism, urban planning, neuroscience, sexuality, and so on, was distinctly skewed toward the non-art subject. At the time I was in an MFA program focused on developing a social practice and so I thought, Of course I read about mostly other things. We are making work that we hope expands the field and speaks to a public beyond the art world. But this friend’s comment stuck with me and left me wondering (for nearly a year now) why it is that, though am an artist and want be seen as such, I seem to be drawn to do research about almost anything else. My best explanation is this. To me, art is the process (perhaps also the method) by which I can seek understanding, question the way that things are, and model new ways of being. This process can apply to any line of inquiry, in any discipline. Essentially, I feel that as a social practice artist what I am an expert in is challenging conventionality, stripping away assumptions, and forging new paths. It may sound a bit grandiose but I think choosing to pursue something like this is brave. Not having a clear path is nerve wracking. And yet, this is the way I see myself being able to create something meaningful beyond myself and my lifetime, and I can only imagine this as my life’s work. 
