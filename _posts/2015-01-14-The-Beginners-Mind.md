@@ -3,7 +3,6 @@ layout: post
 title: "The Beginner's Mind"
 date: 2015-01-14 16:26:06 -0700
 comments: false
-category: work
 author: "Erica"
 ---
 
